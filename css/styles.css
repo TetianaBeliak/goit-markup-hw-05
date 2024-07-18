@@ -519,54 +519,50 @@ background-color: #31d0aa;
 }
 
 .subscribe-title {
-  font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #fff;
-  
-    margin-left: 80px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
+margin-left: 80px;
 }
 
 
 .subscribe-input {
-  border: 1px solid #fff;
-    border-radius: 4px;
-    width: 264px;
-    height: 40px;
-    box-shadow: 0 4px 4px 0 
-    rgba(0, 0, 0, 0.15);
-    margin-top: 16px;
-    margin-left: 80px;
-    font-weight: 400;
-      font-size: 12px;
-      line-height: 2;
-      letter-spacing: 0.04em;
-      color: #fff;
-      padding-top: 8px;
-      padding-bottom: 8px;
-      padding-left: 16px;
-     background-color: #2e2f42;
+border: 1px solid #fff;
+border-radius: 4px;
+width: 264px;
+height: 40px;
+box-shadow: 0 4px 4px 0 
+rgba(0, 0, 0, 0.15);
+margin-top: 16px;
+margin-left: 80px;
+font-weight: 400;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+color: #fff;
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 16px;
+background-color: #2e2f42;
 }
 
 
 .btn-subscribe{
-  display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    gap: 16px;
-    border-radius: 4px;
-      padding: 8px 24px;
-      width: 165px;
-      height: 40px;
-      background: #4d5ae5;
-      margin-left: 24px;
-      color: #fff;
-      margin-top: 40px;
-     
-      
-
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+gap: 16px;
+border-radius: 4px;
+padding: 8px 24px;
+width: 165px;
+height: 40px;
+background: #4d5ae5;
+margin-left: 24px;
+color: #fff;
+margin-top: 40px;
 }
 
 .subscribe-icon {
@@ -601,11 +597,9 @@ transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 */
 }
 .modal{
-
 position: absolute;
 top: 50%;
 left: 50%;
-
 background-color: #fcfcfc;
 border-radius: 4px;
 width: 408px;
@@ -637,23 +631,22 @@ cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-button:hover{
- background-color:#404bbf;
- border: none;
+background-color:#404bbf;
+border: none;
 }
 
 .close-icon{ 
-  fill: #2e2f42;
-  transition: fill 250ms 
-  cubic-bezier(0.4, 0, 0.2, 1);
+fill: #2e2f42;
+transition: fill 250ms 
+cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-button:hover .close-icon
-{
+.close-button:hover .close-icon{
 fill: #fff;
 }
 
 .name-form{
- margin-top: 48px;
+margin-top: 48px;
 margin-left: auto;
 margin-right: auto;
 font-weight: 500;
@@ -668,7 +661,6 @@ margin-bottom: 16px;
 .form-field{
   margin-bottom: 8px;
 }
-
 
 .form-input{
 border-radius: 4px;
@@ -685,6 +677,7 @@ cubic-bezier(0.4, 0, 0.2, 1);
 transition: fill 250ms 
 cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .form-input:focus{
 border-color:  #4d5ae5;
 }
@@ -693,33 +686,30 @@ border-color:  #4d5ae5;
   fill: #4d5ae5;
 }
 
-
 .input-wrapper{
   position: relative;
 }
+
 .form-icon{
 position: absolute;
 fill: #2e2f42;
 left: 16px;
 top: 50%;
 transform: translateY(-50%);
-  
 }
 
 .input-comment{
-  border-radius: 4px;
-    width: 100%;
-    height: 120px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    background-color: transparent;
-    padding-top: 8px;
-    padding-left: 16px;
-
-    color: #2e2f42;
-    font-size: 18px;
-    outline: transparent;
-    resize: none;
-
+border-radius: 4px;
+width: 100%;
+height: 120px;
+border: 1px solid rgba(46, 47, 66, 0.4);
+background-color: transparent;
+padding-top: 8px;
+padding-left: 16px;
+color: #2e2f42;
+font-size: 18px;
+outline: transparent;
+resize: none;
 }
 
 
