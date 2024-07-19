@@ -573,7 +573,6 @@ margin-top: 40px;
 
 
 
-
 .modal-overlay{
 background: rgba(46, 47, 66, 0.4);
 position: fixed;
@@ -581,7 +580,6 @@ top:0; left:0;
 width: 100%;
 height: 100%;
 z-index: 999;
-/*
 opacity:0;
 visibility: hidden;
 pointer-events: none;
@@ -590,12 +588,11 @@ transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-overlay.is-open{
-  opacity: 1;
-  visibility:visible;
-  pointer-events: auto;
+opacity: 1;
+visibility:visible;
+pointer-events: auto;
 }
-*/
-}
+
 .modal{
 position: absolute;
 top: 50%;
@@ -610,7 +607,6 @@ transform: translate(-50%, -50%);
 padding: 24px;
 position: relative;
 }
-
 
 .close-button{
 position: absolute;
@@ -627,7 +623,6 @@ border: 1px solid rgba(0, 0, 0, 0.1);
 padding: 0;
 transition: background-color 250ms 
 cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .close-button:hover{
@@ -659,7 +654,7 @@ margin-bottom: 16px;
 }
 
 .form-field{
-  margin-bottom: 8px;
+margin-bottom: 8px;
 }
 
 .form-input{
@@ -669,13 +664,16 @@ height: 40px;
 border: 1px solid rgba(46, 47, 66, 0.4);
 background-color: transparent;
 padding-left: 38px;
-color: rgba(46, 47, 66, 0.4);
-font-size: 18px;
 outline: transparent;
 transition: border-color 250ms 
 cubic-bezier(0.4, 0, 0.2, 1);
 transition: fill 250ms 
 cubic-bezier(0.4, 0, 0.2, 1);
+color: #1e1823;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
 }
 
 .form-input:focus{
@@ -683,11 +681,11 @@ border-color:  #4d5ae5;
 }
 
 .form-input:focus + .form-icon{
-  fill: #4d5ae5;
+fill: #4d5ae5;
 }
 
 .input-wrapper{
-  position: relative;
+position: relative;
 }
 
 .form-icon{
@@ -706,15 +704,18 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 background-color: transparent;
 padding-top: 8px;
 padding-left: 16px;
-color: #2e2f42;
-font-size: 18px;
 outline: transparent;
 resize: none;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+color: #1e1823;
 }
 
-
-
-
+.input-comment::placeholder{
+color: rgba(46, 47, 66, 0.4);
+}
 
 .checkbox-svg{
 border-radius: 2px;
@@ -724,18 +725,34 @@ width: 16px;
 height: 16px;
 margin-right: 8px;
 }
-.checkbox-container{
- 
-}
 
 .label-check{
-display: inline-flex;
+display: flex;
+align-items: center;
 font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
 color: #8e8f99;
+gap: 8px;
     
 }
+.label-check span{
+width: 16px;
+height: 16px;
+border-radius: 2px;
+border: 1px solid rgba(46, 47, 66, 0.4);
+display: flex;
+align-items: center;
+justify-content: center;
+fill: transparent;
+}
+
+.input-checkbox:checked + .label-check span{
+background-color:#404bbf;
+border: none;
+fill: #fff;
+}
+
 
 .privacy{
 line-height: 1.33;
